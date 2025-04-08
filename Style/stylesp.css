@@ -1,0 +1,160 @@
+/* Général */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+}
+
+a {
+text-decoration: none;
+color: #333;
+}
+
+ul {
+list-style: none;
+}
+
+/* Header */
+header {
+background-color: #333;
+padding: 20px;
+}
+
+header nav ul {
+display: flex;
+justify-content: center;
+}
+
+header nav ul li {
+position: relative;
+}
+
+header nav ul li ul {
+display: none;
+position: absolute;
+background-color: #333;
+min-width: 150px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+header nav ul li:hover ul {
+display: block;
+}
+
+header nav ul li:hover > a {
+color: #fff;
+}
+
+header nav ul li a {
+display: block;
+padding: 10px 20px;
+color: #fff;
+}
+
+header nav ul li ul li a {
+padding: 10px 20px;
+color: #fff;
+}
+
+header nav ul li ul li a:hover {
+background-color: #555;
+}
+
+/* Section Candidat */
+#candidat .container {
+display: flex;
+align-items: center;
+max-width: 1100px;
+margin: 60px auto;
+}
+
+#candidat img {
+margin-right: 40px;
+max-width: 300px;
+}
+
+#candidat .info {
+flex: 1;
+}
+
+#candidat h2 {
+margin-bottom: 20px;
+}
+
+#candidat p {
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+/* Section Entreprise */
+#entreprise .container {
+display: flex;
+align-items: center;
+max-width: 1100px;
+margin: 60px auto;
+}
+
+#entreprise img {
+margin-right: 40px;
+max-width: 300px;
+}
+
+#entreprise .info {
+flex: 1;
+}
+
+#entreprise h2 {
+margin-bottom: 20px;
+}
+
+#entreprise p {
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+/* Section Contact */
+#contact {
+background-color: #f2f2f2;
+padding: 60px;
+text-align: center;
+}
+
+#contact p {
+margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 16px;
+}
+
+/* Divers */
+hr {
+border: none;
+border-top: 1px solid #ccc;
+margin: 60px auto;
+max-width: 1100px;
+}
+
+.container {
+max-width: 1100px;
+margin: 0 auto;
+}
+
+#candidat {
+background-color: #f8f8f8;
+padding: 40px;
+}
+
+#entreprise {
+background-color: #f8f8f8;
+padding: 40px;
+}
